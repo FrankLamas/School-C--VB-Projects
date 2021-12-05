@@ -1,0 +1,9 @@
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\bin\Debug\CalculoISR.exe.config
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\bin\Debug\CalculoISR.exe
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\bin\Debug\CalculoISR.pdb
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\obj\Debug\CalculoISR.csprojResolveAssemblyReference.cache
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\obj\Debug\CalculoISR.Form1.resources
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\obj\Debug\CalculoISR.Properties.Resources.resources
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\obj\Debug\CalculoISR.csproj.GenerateResource.Cache
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\obj\Debug\CalculoISR.exe
+c:\users\falco\documents\visual studio 2012\Projects\CalculoISR\CalculoISR\obj\Debug\CalculoISR.pdb

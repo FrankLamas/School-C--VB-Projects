@@ -1,0 +1,5 @@
+0,16061018,Francisco Lamas,Musica,1,AGO/DIC 2018
+1,12345678,Eduardo Perez,Musica,1,AGO/DIC 2018
+2,87654321,Christian De La Mora,Musica,0,AGO/DIC 2018
+3,98420139,ramon edgardo,Musica,4,ENE/JUL 2018
+4,00000001,Milagros Vega,Basquetbol,0,AGO/DIC 2019

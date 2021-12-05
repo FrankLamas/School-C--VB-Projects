@@ -1,0 +1,8 @@
+1,Musica,Aula 3 Edificio 4,Sabado,11:00,José Crúz,9
+2,Fut Bol,Cancha de Futbol,Sabado,10:00,Ignacio Gamora,1
+3,Voley Bol,Patio Civico,Sabado,10:00,Pedro Fernandez Jaja,0
+4,Basquetbol,Cancha de Basquetbol,Sabado,10:00,Jorge Vargas,1
+5,Danza Folklorica,Audiovisual Edificio 4,Sabado,11:00,Joana Vega,0
+6,Baile Moderno,Edificio 3,Sabado,11:00,Alicia Villareal,0
+1001,cositas,alla,Sabado,9:00,Villa,25
+9879,kfjh,jhgjh,Viernes,98,Joana Vega,0

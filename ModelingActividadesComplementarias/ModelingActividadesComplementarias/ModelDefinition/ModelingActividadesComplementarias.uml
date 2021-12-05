@@ -1,0 +1,2033 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="ce2c232c-ba1f-40c5-a222-09a8cbad5ea6"
+  name="ModelingActividadesComplementarias" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="003d2732-b8d0-439d-a7d5-11f80874e3ce"
+        name="Alumno"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4eda9f16-64c8-4591-a091-ca919f9959b9"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Ver lista de talleres"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4f08a3e2-6b80-4f43-9742-4635d149c7fc"
+              LastKnownName="Ver lista de talleres"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0092a3ba-93ae-465a-92a1-dacdfebf385d"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8c35472-4939-41d4-9319-1743b1d533e4"
+                  name="Ver lista de talleres"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="7d8a6d2f-b3fa-489d-969f-7f36e14c74de"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Registro de Alumnos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d258dec5-56c3-402c-8b1f-bfa1f027ac66"
+              LastKnownName="Registro de Alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f6a3495c-1df4-458c-a203-80e5073a9e3a"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="72d48199-da8b-49b9-b30f-91e32ccc4501"
+                  name="Registro de Alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="910511f9-0afb-4194-b51a-25d22ee52d4c"
+        name="Vinculación"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="12ece865-6b2b-461b-a3d4-05d2539e4f84"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="UseCase1"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2261f9c1-e371-433a-b16f-822b6dedb5e9"
+              LastKnownName="Convocatoria"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cf6dc843-7a70-4c6e-9205-e593cf144bae"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a02ecde-55ab-4a5c-8bf9-2fce84722b7e"
+                  name="UseCase1"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="43d37bc0-5b5f-4be5-bd01-c1bad999ddb6"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Registro de Alumnos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d258dec5-56c3-402c-8b1f-bfa1f027ac66"
+              LastKnownName="Registro de Alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f173700b-80da-481f-a769-62a34e10f2eb"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="12f26d46-800e-472d-9340-fe5430e202a0"
+                  name="Registro de Alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e621e382-1649-4135-ace5-c7f5e43af6c1"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Verificar cupo de talleres"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="48aeb491-a86c-47ab-bfe4-2ac7e3da946a"
+              LastKnownName="Verificar cupo de talleres"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="55abf6bd-6b5d-4792-87c0-1f800158d5aa"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0a0dd2a1-a2fd-4714-be96-e9d24576aede"
+                  name="Verificar cupo de talleres"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9afda5a2-2082-4dbb-a3c4-ec7488748b64"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Publicar lista de alumnos aceptados"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f484309d-47d4-4b54-9b69-a1be3763cfeb"
+              LastKnownName="Publicar listas de alumnos incritos a los talleres"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="44d0fafd-056c-4362-b40b-56f15034e1f5"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="460d736d-7951-4bc7-ae4d-a7d23b7af896"
+                  name="Publicar lista de alumnos aceptados"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2261f9c1-e371-433a-b16f-822b6dedb5e9"
+        name="Convocatoria"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4f08a3e2-6b80-4f43-9742-4635d149c7fc"
+        name="Ver lista de talleres"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="bbcd867d-c4aa-48f5-9e96-b329ced71025">
+            <useCaseMoniker
+              Id="2261f9c1-e371-433a-b16f-822b6dedb5e9"
+              LastKnownName="Convocatoria"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d258dec5-56c3-402c-8b1f-bfa1f027ac66"
+        name="Registro de Alumnos"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="48aeb491-a86c-47ab-bfe4-2ac7e3da946a"
+        name="Verificar cupo de talleres"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="2111823e-c8ee-4726-ac8d-5ef62b1f6bce"
+            isDerived="false"
+            sourceEndRoleName="Verificar cupo de talleres"
+            targetEndRoleName="Registro de Alumnos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d258dec5-56c3-402c-8b1f-bfa1f027ac66"
+              LastKnownName="Registro de Alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c2552555-57ba-4374-ab92-ccb6852d7077"
+                  name="Verificar cupo de talleres"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0bd0d511-3e61-4514-8420-7d1aaf583a5d"
+                  name="Registro de Alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f484309d-47d4-4b54-9b69-a1be3763cfeb"
+        name="Publicar listas de alumnos incritos a los talleres"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="57b6a9cb-677d-4071-9f23-187a0d2f06ae"
+            isDerived="false"
+            sourceEndRoleName="Publicar listas de alumnos incritos a los talleres"
+            targetEndRoleName="Registro de Alumnos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d258dec5-56c3-402c-8b1f-bfa1f027ac66"
+              LastKnownName="Registro de Alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a8bf06fa-8274-472c-a099-07e49f055eaa"
+                  name="Publicar listas de alumnos incritos a los talleres"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="af5fc0b8-f10b-4ffb-a438-9cc81cb6394e"
+                  name="Registro de Alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="5a183884-1a00-431f-865f-469e5acba6bb"
+        name="Docente"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c6e4b078-411a-41a5-a3c4-ee3bb6d7e41a"
+            isDerived="false"
+            sourceEndRoleName="Docente"
+            targetEndRoleName="Ver lista de asistencias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e92d88a2-948c-46bd-b48d-f03fe682f770"
+              LastKnownName="Ver lista de asistencias"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2aec4998-e760-4d7a-a6e6-933c5e1fedf9"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="db308e2f-5fb4-4f7a-a46b-4cedaebb2175"
+                  name="Ver lista de asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="990253ab-5c71-4b8c-bbba-6f44fd41db22"
+            isDerived="false"
+            sourceEndRoleName="Docente"
+            targetEndRoleName="Tomar la asistencia a los alumnos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="44df6810-ce79-4189-9db5-cc5f37504015"
+              LastKnownName="Tomar la asistencia a los alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="68eade61-4012-49fc-9443-28e4f6770b8c"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="65b04090-2880-4c43-a032-c551c6e5ee03"
+                  name="Tomar la asistencia a los alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f8ce4290-77ae-4834-a1e1-c6557adbad25"
+            isDerived="false"
+            sourceEndRoleName="Docente"
+            targetEndRoleName="Reportar las asistencias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ceb933f6-3448-44f6-bef2-9f3d7e1cb82c"
+              LastKnownName="Reportar las asistencias"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="77f4ea14-67cd-43b4-9c82-d463dea812e1"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="482fa87a-1247-4a36-bc61-22f82a7a8c6c"
+                  name="Reportar las asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b1cce62e-7aca-4d7e-a850-10ef46680989"
+            isDerived="false"
+            sourceEndRoleName="Docente"
+            targetEndRoleName="Justificar posibles faltas"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1e702d17-1814-46a9-b1a8-e992c1c1c669"
+              LastKnownName="Justificar posibles faltas"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="989b4ae7-8bc8-434a-9309-c8f21e0c6f95"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3fb8e33c-6548-466e-b37b-d9a883d3fec2"
+                  name="Justificar posibles faltas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f6d88b25-8055-4435-b683-ba7205a05f3f"
+        name="Vinculación"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c5c2167c-7078-4e32-8b94-0c55ea4a791c"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Entregar listas de asistencias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7915abde-7a84-4a04-83d2-0a4b41846c21"
+              LastKnownName="Entregar listas de asistencias"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7edb0556-c798-416c-9397-9695eab5c872"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8689b8bf-6793-41c0-a899-58ec30961583"
+                  name="Entregar listas de asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d52a164d-7e63-4f48-82e7-f8179bf038e4"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Revisar listas de asistencia"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="6044cea1-6476-4ccc-8994-9238c327277a"
+              LastKnownName="Revisar listas de asistencia"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6071af26-a26b-4bff-8a2a-b052fbf45d5c"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e6d65c92-63dd-45ba-99ee-a90ffade7265"
+                  name="Revisar listas de asistencia"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="531b4b2f-fce4-4a84-97fc-da55de622fd3"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Registrar Acreditados"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1a3ce9b6-0f2f-488f-8b18-20a20dcdda06"
+              LastKnownName="Registrar Acreditados"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c4e49998-7d52-4862-a49b-a1ed998f8f93"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="65ff664f-c00a-4faa-b2d1-d9344a35d10b"
+                  name="Registrar Acreditados"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7915abde-7a84-4a04-83d2-0a4b41846c21"
+        name="Entregar listas de asistencias"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="83717c74-4152-481a-83b7-b0059126938f"
+            isDerived="false"
+            sourceEndRoleName="Entregar listas de asistencias"
+            targetEndRoleName="Docente"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="5a183884-1a00-431f-865f-469e5acba6bb"
+              LastKnownName="Docente"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="21fa8192-225e-469e-a0ce-5905a9664821"
+                  name="Entregar listas de asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4b7cc5ae-2a4a-4101-96c5-cb327e596e34"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e92d88a2-948c-46bd-b48d-f03fe682f770"
+        name="Ver lista de asistencias"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="d1700c62-454f-4f50-bd11-f345caa461ac">
+            <useCaseMoniker
+              Id="7915abde-7a84-4a04-83d2-0a4b41846c21"
+              LastKnownName="Entregar listas de asistencias"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="44df6810-ce79-4189-9db5-cc5f37504015"
+        name="Tomar la asistencia a los alumnos"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="21b04525-1d96-4dc3-ae1d-f9b6f65483c2"
+            isDerived="false"
+            sourceEndRoleName="Tomar la asistencia a los alumnos"
+            targetEndRoleName="Ver lista de asistencias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e92d88a2-948c-46bd-b48d-f03fe682f770"
+              LastKnownName="Ver lista de asistencias"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="73e0d3b6-1716-49b4-810e-4f7660c93f75"
+                  name="Tomar la asistencia a los alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e164465d-1465-434e-bb73-276de81667ca"
+                  name="Ver lista de asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ceb933f6-3448-44f6-bef2-9f3d7e1cb82c"
+        name="Reportar las asistencias"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="b75b31bc-5264-4897-86be-957f4ab4f6a1">
+            <useCaseMoniker
+              Id="44df6810-ce79-4189-9db5-cc5f37504015"
+              LastKnownName="Tomar la asistencia a los alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="fcfb35c4-a049-4b74-9c99-b958dcc33bf4"
+            isDerived="false"
+            sourceEndRoleName="Reportar las asistencias"
+            targetEndRoleName="Vinculación"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="f6d88b25-8055-4435-b683-ba7205a05f3f"
+              LastKnownName="Vinculación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4d66d7fd-0a49-48b8-a2be-8897f5a8fd5b"
+                  name="Reportar las asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d92152ce-c40b-446f-935f-0debd1066b84"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6044cea1-6476-4ccc-8994-9238c327277a"
+        name="Revisar listas de asistencia"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="1afa6ac9-a453-4aa5-8c4c-a7f3bad9741c"
+            isDerived="false"
+            sourceEndRoleName="Revisar listas de asistencia"
+            targetEndRoleName="Reportar las asistencias"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ceb933f6-3448-44f6-bef2-9f3d7e1cb82c"
+              LastKnownName="Reportar las asistencias"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="90d1c0da-1470-4629-b720-777dc828e146"
+                  name="Revisar listas de asistencia"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8e5b4c49-174c-4966-b898-7328c9fbcfc3"
+                  name="Reportar las asistencias"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1a3ce9b6-0f2f-488f-8b18-20a20dcdda06"
+        name="Registrar Acreditados"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="848bb396-b350-4d1d-acef-d0819bfa137a">
+            <useCaseMoniker
+              Id="6044cea1-6476-4ccc-8994-9238c327277a"
+              LastKnownName="Revisar listas de asistencia"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="ed4382d7-382c-4e13-859f-2c4b60537e32"
+        name="Docente"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="3af55eda-02b6-402c-8d29-549fd7f0ed79"
+            isDerived="false"
+            sourceEndRoleName="Docente"
+            targetEndRoleName="Firmar constancias de acreditación"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f7f16faf-8723-4ec4-ba83-d2272d27ebb8"
+              LastKnownName="Firmar constancias de acreditación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6956fd95-bf2c-42d3-81ca-65011eb2aee2"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9a605e41-4895-48eb-a027-b9bf726c6fc2"
+                  name="Firmar constancias de acreditación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0749275c-1d6e-4e99-9d16-da6feb039335"
+            isDerived="false"
+            sourceEndRoleName="Docente"
+            targetEndRoleName="Llenar formato de evaluación"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="619a0d21-3670-4e63-8997-6d795dbb3ba7"
+              LastKnownName="Llenar formato de evaluación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="05ffe1a1-3c19-4aa1-a943-97a6933b014c"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="09433dce-6612-465f-9fbd-6b552943dad3"
+                  name="Llenar formato de evaluación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="0902b576-d739-45d6-8c48-784fe6861ddf"
+        name="Vinculación"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="0e5fb55b-5f43-45df-92a6-3edd331ff4bc"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Entregar formato de evaluación"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="1eef4314-057a-44fd-bae0-53c9c2383cd4"
+              LastKnownName="Entregar formato de evaluación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9d0c2b2b-de85-4d66-89e7-d80d45539814"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4ae6d492-1e36-48d5-abdf-eb46c65525f1"
+                  name="Entregar formato de evaluación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="50c22045-c630-4e36-938f-ea5d08cf6a05"
+            isDerived="false"
+            sourceEndRoleName="Vinculación"
+            targetEndRoleName="Generar constancias de acreditación"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="03a0a346-dbce-4276-930e-4e8784c05336"
+              LastKnownName="Generar constancias de acreditación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="053289e3-d78a-4ffd-9dcf-54aa99aef7c5"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4f4157c5-680c-4d0c-94c1-47c05934aede"
+                  name="Generar constancias de acreditación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1eef4314-057a-44fd-bae0-53c9c2383cd4"
+        name="Entregar formato de evaluación"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="5f904b8f-467b-4790-bebc-8932cf55a518"
+            isDerived="false"
+            sourceEndRoleName="Entregar formato de evaluación"
+            targetEndRoleName="Docente"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="ed4382d7-382c-4e13-859f-2c4b60537e32"
+              LastKnownName="Docente"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="67bdc14d-2557-4a26-a0a6-d6308456488a"
+                  name="Entregar formato de evaluación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="905086d8-bf70-4e74-968a-b155bdb7b0af"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="03a0a346-dbce-4276-930e-4e8784c05336"
+        name="Generar constancias de acreditación"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="61fdbaf7-9c84-448a-b777-f68dba0b5c34"
+            isDerived="false"
+            sourceEndRoleName="Generar constancias de acreditación"
+            targetEndRoleName="Docente"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="ed4382d7-382c-4e13-859f-2c4b60537e32"
+              LastKnownName="Docente"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="80614970-3c43-497b-b4cf-84e5a9f9721b"
+                  name="Generar constancias de acreditación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="be730e33-4b94-4e85-a127-a46334cb93c1"
+                  name="Docente"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f7f16faf-8723-4ec4-ba83-d2272d27ebb8"
+        name="Firmar constancias de acreditación"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="223c2f23-8b3c-439a-9f74-784e843de1fb"
+            isDerived="false"
+            sourceEndRoleName="Firmar constancias de acreditación"
+            targetEndRoleName="Generar constancias de acreditación"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="03a0a346-dbce-4276-930e-4e8784c05336"
+              LastKnownName="Generar constancias de acreditación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b43c6941-12bc-42bd-8c24-f0f1812022b7"
+                  name="Firmar constancias de acreditación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="72af836a-bbd1-4abf-a365-063c91485a64"
+                  name="Generar constancias de acreditación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="619a0d21-3670-4e63-8997-6d795dbb3ba7"
+        name="Llenar formato de evaluación"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="4d548571-9bf0-490e-b1a1-4ff4fafa027b">
+            <useCaseMoniker
+              Id="1eef4314-057a-44fd-bae0-53c9c2383cd4"
+              LastKnownName="Entregar formato de evaluación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="92bdf566-fc48-461b-ac4f-7070808e546f"
+            isDerived="false"
+            sourceEndRoleName="Llenar formato de evaluación"
+            targetEndRoleName="Vinculación"
+            isLeaf="false"
+            isAbstract="false">
+            <actorMoniker
+              Id="0902b576-d739-45d6-8c48-784fe6861ddf"
+              LastKnownName="Vinculación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5719f6cf-2bd9-49ce-94a6-8ea9927939c2"
+                  name="Llenar formato de evaluación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="34969ce4-59b6-498e-874f-b884d0d51177"
+                  name="Vinculación"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="1e702d17-1814-46a9-b1a8-e992c1c1c669"
+        name="Justificar posibles faltas"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="10f6f5fe-9796-464a-90c1-ec72249d775c">
+            <useCaseMoniker
+              Id="44df6810-ce79-4189-9db5-cc5f37504015"
+              LastKnownName="Tomar la asistencia a los alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="7cf4e59e-d62f-4320-9aed-d5ba177a8ac5"
+        name="Alumno"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="470f3c37-218c-4a4c-b8ea-e9934bf3b5a7"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Necesidad Extrema"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bbfa19f1-fe03-4ff4-891f-100d95ba10cb"
+              LastKnownName="Necesidad Extrema"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8c26cb83-8df4-43e5-9ec8-d5f498515d57"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="929cd5d6-df5f-425b-a451-54ceb4467323"
+                  name="Necesidad Extrema"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="44961293-847b-481a-8076-300f21091df1"
+            isDerived="false"
+            sourceEndRoleName="Alumno"
+            targetEndRoleName="Tomar la asistencia a los alumnos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="44df6810-ce79-4189-9db5-cc5f37504015"
+              LastKnownName="Tomar la asistencia a los alumnos"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c6e30caa-c389-4400-b47b-bb7b6cbcaec5"
+                  name="Alumno"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6b40bccb-0844-4984-bec4-9759c799e21c"
+                  name="Tomar la asistencia a los alumnos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bbfa19f1-fe03-4ff4-891f-100d95ba10cb"
+        name="Necesidad Extrema"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="cbb21caa-a4e5-4046-a12f-6cc0d1350b9f">
+            <useCaseMoniker
+              Id="1e702d17-1814-46a9-b1a8-e992c1c1c669"
+              LastKnownName="Justificar posibles faltas"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="5ea9ab6b-8ef4-4e21-9e3c-8e15aec8d0c5"
+        name="Servicios escolares"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="27515dbf-d55f-4feb-93be-f4e654af9c56"
+            isDerived="false"
+            sourceEndRoleName="Servicios escolares"
+            targetEndRoleName="Archivar constancias firmadas"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8c19041b-1c33-4af1-82fe-f74a163e0c6a"
+              LastKnownName="Archivar constancias firmadas"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8b969fe0-36c8-4d47-ac60-60289f4ae433"
+                  name="Servicios escolares"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="33983b47-debd-417c-b8e7-114943d2f6a6"
+                  name="Archivar constancias firmadas"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8c19041b-1c33-4af1-82fe-f74a163e0c6a"
+        name="Archivar constancias firmadas"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="ec6f7041-6cb6-4f4e-98c1-472ee6033145">
+            <useCaseMoniker
+              Id="f7f16faf-8723-4ec4-ba83-d2272d27ebb8"
+              LastKnownName="Firmar constancias de acreditación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="c1afed02-d7b8-4a8e-83e9-de55fa1017dc"
+        name="Actor1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="229d5483-361b-48a1-a636-ed153f73096b"
+        name="Class1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fc25de03-8c78-44dc-80be-66ab52b2efdf"
+        name="Class2"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c478d9d0-42e9-4ce0-9477-7496acd856a0"
+        name="&lt;&lt;Actor&gt;&gt; Alumno"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="0b2fc3fd-553b-408b-847f-1de4613816e7"
+            name="&lt;&lt;See&gt;&gt;">
+            <classMoniker
+              Id="64a83a3b-df10-4b60-a19e-96a359fec750"
+              LastKnownName="Convocatoria"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+          <dependency
+            Id="d2c3a7a7-37cf-4d25-8a05-045a50c98436"
+            name="&lt;&lt;Decir datos&gt;&gt;">
+            <classMoniker
+              Id="83079d43-1d5e-4a2e-80f2-0ce51e2c0771"
+              LastKnownName="&lt;&lt;Actor&gt;&gt; Vinculación"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4fd3703c-4594-4a2b-9deb-a4b298a8d394"
+            name="No. Control"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0a928f69-ce81-426e-8eb6-d136b1c95df8"
+            name="Nombre"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="7c2d2351-7d69-4de2-8a38-e1842274f4db"
+            name="Carrera"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0171ae97-99b8-4681-9b85-5bbedf7f299a"
+            name="Semestre"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="d6c6717b-7aec-4660-ba80-30909366227d"
+            name="No.Seguro Social"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="64a83a3b-df10-4b60-a19e-96a359fec750"
+        name="Convocatoria"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="b04c7f7e-ca4d-4a5d-96b9-4da733786c9c"
+            name="Info Talleres"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="83079d43-1d5e-4a2e-80f2-0ce51e2c0771"
+        name="&lt;&lt;Actor&gt;&gt; Vinculación"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="8d80b102-f2bf-46bf-b653-be0f5d5b1449"
+            name="&lt;&lt;Verificar cupo&gt;&gt;">
+            <classMoniker
+              Id="5ea72fc8-7c0e-4b0c-b3bf-b4ff89ea8d59"
+              LastKnownName="Talleres"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+          <dependency
+            Id="1e42e342-0665-4f60-9591-7cd7fc01549f"
+            name="&lt;&lt;Realizar Registro&gt;&gt;">
+            <classMoniker
+              Id="be824405-da45-4822-8291-4493fe91b650"
+              LastKnownName="Lista de Alumnos Registrados"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="5ea72fc8-7c0e-4b0c-b3bf-b4ff89ea8d59"
+        name="Talleres"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="ab188e1d-c773-4509-a137-822ef115f926"
+            name="+NombreTaller">
+            <classMoniker
+              Id="64a83a3b-df10-4b60-a19e-96a359fec750"
+              LastKnownName="Convocatoria"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="a28ec0d8-552c-46f1-8871-e4a140400571"
+            name="ID"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="a4224ec4-6fe8-4c95-8f5e-8b21de100e0d"
+            name="Docente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="77656059-1c7c-4402-9fcb-e6cae7f2116f"
+            name="Hora"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8afe3179-57d8-41c2-99bb-4eb16542a4eb"
+            name="Fecha"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="8c1b0bd8-cbfb-4292-9803-d1bf1ef8cb7e"
+            name="Cupo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="be824405-da45-4822-8291-4493fe91b650"
+        name="Lista de Alumnos Registrados"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="5a44a352-11f7-4378-954f-fa49e7b1998b"
+            name="Info Alumnos"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <enumeration
+        Id="aeec8256-5685-4af0-9632-688f589504b8"
+        name="Enumeration1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="c661d996-5c78-41e2-acba-c3b1db92eb2e"
+        name="Interface1"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6df2b8d1-13f2-4c25-8294-1b8697b9e93e"
+        name="&lt;&lt;Actor&gt;&gt;Docente"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="53ee3860-a174-4937-b21c-6c043378e39d"
+            name="0..5">
+            <classMoniker
+              Id="d45910af-b76d-420e-9241-81ecd7173e83"
+              LastKnownName="Impartir taller"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+          <dependency
+            Id="d96f650d-34e8-419d-a0ed-9418c041fb4a"
+            name="&lt;&lt;Justificar inasistencias&gt;&gt;">
+            <classMoniker
+              Id="290ceef8-9707-43f2-bb39-98a7bb5ab85c"
+              LastKnownName="Lista de asistencia"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="1d56a15b-fc83-49bc-a3c6-338f48fc5281"
+            name="Id Docente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="91126eb5-620a-4059-abc1-c6d8f92969aa"
+            name="Nombre Docente"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="290ceef8-9707-43f2-bb39-98a7bb5ab85c"
+        name="Lista de asistencia"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="22797ec1-c553-4de4-a6de-481ea53a60b5">
+            <classMoniker
+              Id="c8018aca-9cda-4237-978c-4f4d9eff4290"
+              LastKnownName="Toma de asistencia"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="356536a7-cbec-44d7-8105-3e657d4691a0"
+            name="Info Alumno"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c8018aca-9cda-4237-978c-4f4d9eff4290"
+        name="Toma de asistencia"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="e3020cba-41af-4e47-ae5b-0a76bd9148b4"
+            isDerived="false"
+            sourceEndRoleName=" "
+            targetEndRoleName=" "
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="6df2b8d1-13f2-4c25-8294-1b8697b9e93e"
+              LastKnownName="&lt;&lt;Actor&gt;&gt;Docente"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f493fbb0-47e8-45f7-991b-f260c2f3d340"
+                  name=" "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="b4438270-3f14-45ee-ab21-a4c7c00175d2"
+                      name="Lower"
+                      value="0" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="787167ed-f0e8-4fc1-b9f8-7d16d52027ee"
+                      name="Upper"
+                      value="5" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9e92bbea-ceea-4a1c-b05d-1396f7bb887a"
+                  name=" "
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="fb421eb3-fbbe-4f2b-a82d-7ec99b47aec0"
+                      name="Lower" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="5035a9b0-efc3-43bd-baea-4fb81b856f88"
+                      name="Upper" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="d45910af-b76d-420e-9241-81ecd7173e83"
+        name="Impartir taller"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="0d11b2cc-e513-41dd-9a97-c59739f082a8">
+            <classMoniker
+              Id="c8018aca-9cda-4237-978c-4f4d9eff4290"
+              LastKnownName="Toma de asistencia"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6fd98bc8-22bc-424c-807f-4bde91cf1192"
+        name="Formato de Evaluacion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="1486f2b4-e9d6-4ffa-ae18-9ac5400a9a49"
+            name="&lt;&lt;Entrega&gt;&gt;">
+            <classMoniker
+              Id="36cfe099-9eda-43c3-ae9b-e856370ef0bb"
+              LastKnownName="&lt;&lt;Actor&gt;&gt; Vinculacion"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="79b513bc-9942-4e1b-95ff-db454f487458"
+        name="&lt;&lt;Actor&gt;&gt; Docente"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="a96a3126-21a6-4366-bdbd-187b5f093ac0"
+            name="&lt;&lt;Llenar&gt;&gt;">
+            <classMoniker
+              Id="6fd98bc8-22bc-424c-807f-4bde91cf1192"
+              LastKnownName="Formato de Evaluacion"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="36cfe099-9eda-43c3-ae9b-e856370ef0bb"
+        name="&lt;&lt;Actor&gt;&gt; Vinculacion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a3b50de0-3845-4a04-9eb2-a4ff608bb74b"
+        name="Registro  de Creditos"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="538d92c9-311f-44f7-a5d1-fa915343f040"
+            name="&lt;&lt;Asigna&gt;&gt;">
+            <classMoniker
+              Id="36cfe099-9eda-43c3-ae9b-e856370ef0bb"
+              LastKnownName="&lt;&lt;Actor&gt;&gt; Vinculacion"
+              LastKnownLocation="ModelingActividadesComplementarias.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

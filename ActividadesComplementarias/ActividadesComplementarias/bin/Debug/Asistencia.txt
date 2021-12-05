@@ -1,0 +1,9 @@
+8,0, 30 de junio de 2018,Presente
+9,1, 30 de junio de 2018,Presente
+10,2, 30 de junio de 2018,Ausente
+3,3, 7 de junio de 2018,
+7,3, 7 de junio de 2018,Presente
+5,3, 8 de junio de 2018,Presente
+6,3, 9 de junio de 2018,Justificado
+7,3, 10 de junio de 2018,Presente
+8,3, 11 de junio de 2018,Ausente

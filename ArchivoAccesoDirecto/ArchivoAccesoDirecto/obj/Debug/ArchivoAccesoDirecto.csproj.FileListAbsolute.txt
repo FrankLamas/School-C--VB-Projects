@@ -1,0 +1,6 @@
+c:\users\falco\documents\visual studio 2012\Projects\ArchivoAccesoDirecto\ArchivoAccesoDirecto\bin\Debug\ArchivoAccesoDirecto.exe.config
+c:\users\falco\documents\visual studio 2012\Projects\ArchivoAccesoDirecto\ArchivoAccesoDirecto\bin\Debug\ArchivoAccesoDirecto.exe
+c:\users\falco\documents\visual studio 2012\Projects\ArchivoAccesoDirecto\ArchivoAccesoDirecto\bin\Debug\ArchivoAccesoDirecto.pdb
+c:\users\falco\documents\visual studio 2012\Projects\ArchivoAccesoDirecto\ArchivoAccesoDirecto\obj\Debug\ArchivoAccesoDirecto.csprojResolveAssemblyReference.cache
+c:\users\falco\documents\visual studio 2012\Projects\ArchivoAccesoDirecto\ArchivoAccesoDirecto\obj\Debug\ArchivoAccesoDirecto.exe
+c:\users\falco\documents\visual studio 2012\Projects\ArchivoAccesoDirecto\ArchivoAccesoDirecto\obj\Debug\ArchivoAccesoDirecto.pdb

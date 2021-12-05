@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="77b5555f-ad5b-40f7-83f9-cbb44d0908bf" name="DominioAsistencia" linkedPackageId="75608621-57b8-46e1-a646-b74d890b5e7a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b0076c68-cf18-4d4f-b60e-e5b523c61923">
+      <profileInstance Id="e6a42e0d-fc14-4920-892c-e3e9ad84e0ab" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="383cec74-80ef-470c-a87f-8ccd28214ea4">
+      <profileInstance Id="d4a65e49-994e-4a6e-aeb4-0aa7b26c5b78" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="40749102-ad07-4f86-9507-a43763ddeb31" name="&lt;&lt;Actor&gt;&gt;Docente" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6df2b8d1-13f2-4c25-8294-1b8697b9e93e" />
+        <suppliersInternal>
+          <dependency Id="3d54987f-6478-45e8-b5ff-4d94e8889a97" name="0..5">
+            <classMoniker Id="3d909f91-1864-4d96-ab93-7f71c421bb34" LastKnownName="Impartir taller" />
+            <elementDefinition Id="53ee3860-a174-4937-b21c-6c043378e39d" />
+          </dependency>
+          <dependency Id="6e057c69-da30-4fad-8f49-5fce99eeb34f" name="&lt;&lt;Justificar inasistencias&gt;&gt;">
+            <classMoniker Id="6ac6563f-e46d-422b-91b6-1f7de84f0601" LastKnownName="Lista de asistencia" />
+            <elementDefinition Id="d96f650d-34e8-419d-a0ed-9418c041fb4a" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="7cc40e58-5252-439e-9e46-8268bdae3363" name="Id Docente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="1d56a15b-fc83-49bc-a3c6-338f48fc5281" />
+          </property>
+          <property Id="68566453-57dc-417c-a17e-9ef41406ba24" name="Nombre Docente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="91126eb5-620a-4059-abc1-c6d8f92969aa" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6ac6563f-e46d-422b-91b6-1f7de84f0601" name="Lista de asistencia" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="290ceef8-9707-43f2-bb39-98a7bb5ab85c" />
+        <suppliersInternal>
+          <dependency Id="ed523218-ad25-43db-888e-a6c3d853236c">
+            <classMoniker Id="a45e281f-a57c-4613-ba49-64901c9c1c06" LastKnownName="Toma de asistencia" />
+            <elementDefinition Id="22797ec1-c553-4de4-a6de-481ea53a60b5" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="36c34d28-00c3-4de7-adbe-f8036df8f3ed" name="Info Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="356536a7-cbec-44d7-8105-3e657d4691a0" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a45e281f-a57c-4613-ba49-64901c9c1c06" name="Toma de asistencia" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c8018aca-9cda-4237-978c-4f4d9eff4290" />
+        <targetEnds>
+          <association Id="9e042ff2-94f9-44d8-bf67-523e979de5ea" isDerived="false" sourceEndRoleName=" " targetEndRoleName=" " isLeaf="false" isAbstract="false">
+            <classMoniker Id="40749102-ad07-4f86-9507-a43763ddeb31" LastKnownName="&lt;&lt;Actor&gt;&gt;Docente" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d9b3473-d7a4-47e9-88ea-79b52dd244d2" name=" " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <lowerValueInternal>
+                    <literalString Id="77a96eb4-b18a-48a7-8a56-1a2085ff11d2" name="Lower" value="0">
+                      <elementDefinition Id="b4438270-3f14-45ee-ab21-a4c7c00175d2" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="61d36a79-ad74-477a-918e-c7b2eb2e2681" name="Upper" value="5">
+                      <elementDefinition Id="787167ed-f0e8-4fc1-b9f8-7d16d52027ee" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="f493fbb0-47e8-45f7-991b-f260c2f3d340" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f15b2931-d968-4023-bc65-b95c4ea64e5a" name=" " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <lowerValueInternal>
+                    <literalString Id="bd85fb26-93f3-44a7-9479-b8b3f811bb2c" name="Lower">
+                      <elementDefinition Id="fb421eb3-fbbe-4f2b-a82d-7ec99b47aec0" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="3814535d-49e0-4581-a1eb-48825f67cbb7" name="Upper">
+                      <elementDefinition Id="5035a9b0-efc3-43bd-baea-4fb81b856f88" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="9e92bbea-ceea-4a1c-b05d-1396f7bb887a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e3020cba-41af-4e47-ae5b-0a76bd9148b4" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3d909f91-1864-4d96-ab93-7f71c421bb34" name="Impartir taller" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d45910af-b76d-420e-9241-81ecd7173e83" />
+        <suppliersInternal>
+          <dependency Id="53a50342-d446-4623-a4ef-0c571bb48fd5">
+            <classMoniker Id="a45e281f-a57c-4613-ba49-64901c9c1c06" LastKnownName="Toma de asistencia" />
+            <elementDefinition Id="0d11b2cc-e513-41dd-9a97-c59739f082a8" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="75608621-57b8-46e1-a646-b74d890b5e7a" name="ModelingActividadesComplementarias">
+    <elementDefinition Id="ce2c232c-ba1f-40c5-a222-09a8cbad5ea6" />
+  </package>
+</logicalClassDesignerModel>

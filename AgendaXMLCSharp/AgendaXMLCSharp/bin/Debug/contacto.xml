@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+  <contacto>
+    <id>1</id>
+    <nombre>Francisco</nombre>
+    <domicilio>Emiliano Zapata #60</domicilio>
+    <telefono>3312454945</telefono>
+    <correo>FALCON@gmail.com</correo>
+  </contacto>
+</persona>

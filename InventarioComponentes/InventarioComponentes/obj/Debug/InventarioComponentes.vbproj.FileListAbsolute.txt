@@ -1,0 +1,15 @@
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\bin\Debug\InventarioComponentes.exe.config
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\bin\Debug\InventarioComponentes.exe
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\bin\Debug\InventarioComponentes.pdb
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\bin\Debug\InventarioComponentes.xml
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.logIn.resources
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.Resources.resources
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.vbproj.GenerateResource.Cache
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.exe
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.xml
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.pdb
+c:\users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.mainform.resources
+C:\Users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.vbprojResolveAssemblyReference.cache
+C:\Users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\bin\Debug\MySql.Data.dll
+C:\Users\falco\documents\visual studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.agregarProducto.resources
+C:\Users\falco\Documents\Visual Studio 2012\Projects\InventarioComponentes\InventarioComponentes\obj\Debug\InventarioComponentes.movimientosfrm.resources

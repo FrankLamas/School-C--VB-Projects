@@ -1,0 +1,12 @@
+16061018,Francisco Lamas,Ing. Informática,4,1207301274,A+
+10101010,Juanito Perez,Ing. Informática,6,2131246968,AB+
+01010101,Elber Gavilanez,Ing. Industrial,6,78961374,B-
+20202020,Erika Galindo,Lic. Administración,2,1269846,O+
+02020202,Maria La Silbadora,Lic. Administración,6,709066,AB-
+12345678,Eduardo Perez,Ing. Informática,4,41628936918,A+
+87654321,Christian De La Mora,Ing. Informática,4,8538653,AB+
+11111111,Abril Rodríguez,Ing. Gestión Empresarial,2,720165,A+
+00000001,Milagros Vega,Lic. Administración,8,129075028,B+
+00000002,Cornelio Morales,Ing. Industrial,6,0907102579,A+
+00000003,Guadalupe Huerta,Ing. Electromecánica,2,37502102,AB-
+98420139,ramon edgardo,Ing. Informática,1,99,A+

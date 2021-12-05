@@ -1,0 +1,14 @@
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\bin\Debug\AgendaXMLCSharp.exe.config
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.csprojResolveAssemblyReference.cache
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.frmAgregar.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.frmBuscar.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.frmEditar.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.frmEliminar.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.frmMenu.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.frmMostrar.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.Properties.Resources.resources
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.csproj.GenerateResource.Cache
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\bin\Debug\AgendaXMLCSharp.exe
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\bin\Debug\AgendaXMLCSharp.pdb
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.exe
+c:\users\falco\documents\visual studio 2012\Projects\AgendaXMLCSharp\AgendaXMLCSharp\obj\Debug\AgendaXMLCSharp.pdb

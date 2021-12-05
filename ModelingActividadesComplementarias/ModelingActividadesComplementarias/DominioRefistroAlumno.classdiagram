@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="828a8137-b1b6-40b9-b3a3-ed00775f557a" name="DominioRefistroAlumno" linkedPackageId="26ebc255-6210-404d-b49a-c067106afad1" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="73ca0dfe-3f86-41df-b6fb-6e4afb21d2b0">
+      <profileInstance Id="74fa2222-61e9-47b1-b80f-5ea7d57cb81c" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="3641cc2e-74f1-477e-a5b7-7029427d0369">
+      <profileInstance Id="c79d3638-254a-4048-bb72-a8df44e657e5" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="04ce6ad8-0aaa-4477-835c-b08346ff8b33" name="&lt;&lt;Actor&gt;&gt; Alumno" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c478d9d0-42e9-4ce0-9477-7496acd856a0" />
+        <suppliersInternal>
+          <dependency Id="17ac2512-ee49-4e16-92b7-251c01af6ca8" name="&lt;&lt;See&gt;&gt;">
+            <classMoniker Id="763c1756-121a-4e87-8159-e15e6aeb7961" LastKnownName="Convocatoria" />
+            <elementDefinition Id="0b2fc3fd-553b-408b-847f-1de4613816e7" />
+          </dependency>
+          <dependency Id="ceeddabe-7438-4f8b-ade8-05f1241d3d28" name="&lt;&lt;Decir datos&gt;&gt;">
+            <classMoniker Id="97649e13-65d3-4e99-bf4d-d93a6ba21e1f" LastKnownName="&lt;&lt;Actor&gt;&gt; Vinculación" />
+            <elementDefinition Id="d2c3a7a7-37cf-4d25-8a05-045a50c98436" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="9fa3222b-a81f-4ded-9968-817b3d193e22" name="No. Control" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="4fd3703c-4594-4a2b-9deb-a4b298a8d394" />
+          </property>
+          <property Id="dfab62b7-b655-4ff5-8f3f-75a7b9243d14" name="Nombre" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0a928f69-ce81-426e-8eb6-d136b1c95df8" />
+          </property>
+          <property Id="0060eb59-85d1-4401-896e-5c79665e04cc" name="Carrera" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7c2d2351-7d69-4de2-8a38-e1842274f4db" />
+          </property>
+          <property Id="10c2604d-7549-4874-9464-a8e46fe5a486" name="Semestre" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0171ae97-99b8-4681-9b85-5bbedf7f299a" />
+          </property>
+          <property Id="04f4c307-0bb6-4a32-98b2-8725038b346c" name="No.Seguro Social" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d6c6717b-7aec-4660-ba80-30909366227d" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="763c1756-121a-4e87-8159-e15e6aeb7961" name="Convocatoria" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="64a83a3b-df10-4b60-a19e-96a359fec750" />
+        <ownedAttributesInternal>
+          <property Id="6f81dc66-5a26-484c-b39f-67fffc667a67" name="Info Talleres" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b04c7f7e-ca4d-4a5d-96b9-4da733786c9c" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="97649e13-65d3-4e99-bf4d-d93a6ba21e1f" name="&lt;&lt;Actor&gt;&gt; Vinculación" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="83079d43-1d5e-4a2e-80f2-0ce51e2c0771" />
+        <suppliersInternal>
+          <dependency Id="a58749bc-dae9-4981-b47f-36368bfdc95b" name="&lt;&lt;Verificar cupo&gt;&gt;">
+            <classMoniker Id="a6a0d084-d8f0-4cec-9298-1cdd4cf7a339" LastKnownName="Talleres" />
+            <elementDefinition Id="8d80b102-f2bf-46bf-b653-be0f5d5b1449" />
+          </dependency>
+          <dependency Id="85b1a1eb-2224-4953-885b-c29f4de50785" name="&lt;&lt;Realizar Registro&gt;&gt;">
+            <classMoniker Id="0630c459-409f-483f-98f6-c29900dd763c" LastKnownName="Lista de Alumnos Registrados" />
+            <elementDefinition Id="1e42e342-0665-4f60-9591-7cd7fc01549f" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a6a0d084-d8f0-4cec-9298-1cdd4cf7a339" name="Talleres" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5ea72fc8-7c0e-4b0c-b3bf-b4ff89ea8d59" />
+        <suppliersInternal>
+          <dependency Id="b7b90343-876c-4ed5-9f54-75a3191c80aa" name="+NombreTaller">
+            <classMoniker Id="763c1756-121a-4e87-8159-e15e6aeb7961" LastKnownName="Convocatoria" />
+            <elementDefinition Id="ab188e1d-c773-4509-a137-822ef115f926" />
+          </dependency>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="659537cc-32b9-489d-a267-cebea458dcd9" name="ID" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a28ec0d8-552c-46f1-8871-e4a140400571" />
+          </property>
+          <property Id="6f212bf7-c4c2-4848-95fc-4c47c574be0e" name="Docente" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="a4224ec4-6fe8-4c95-8f5e-8b21de100e0d" />
+          </property>
+          <property Id="b810ab0a-3a46-418d-b784-9ff148dd296a" name="Hora" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="77656059-1c7c-4402-9fcb-e6cae7f2116f" />
+          </property>
+          <property Id="3ec04aa6-0c5c-4f5a-830d-4d08fa2d9010" name="Fecha" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8afe3179-57d8-41c2-99bb-4eb16542a4eb" />
+          </property>
+          <property Id="27459ea7-9234-4979-8643-7eb681af0efd" name="Cupo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8c1b0bd8-cbfb-4292-9803-d1bf1ef8cb7e" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0630c459-409f-483f-98f6-c29900dd763c" name="Lista de Alumnos Registrados" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="be824405-da45-4822-8291-4493fe91b650" />
+        <ownedAttributesInternal>
+          <property Id="6fb7ae56-2953-49cc-9435-2b4c4ff4ad4d" name="Info Alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="5a44a352-11f7-4378-954f-fa49e7b1998b" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="26ebc255-6210-404d-b49a-c067106afad1" name="ModelingActividadesComplementarias">
+    <elementDefinition Id="ce2c232c-ba1f-40c5-a222-09a8cbad5ea6" />
+  </package>
+</logicalClassDesignerModel>

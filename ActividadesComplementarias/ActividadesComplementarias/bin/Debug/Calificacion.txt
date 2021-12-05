@@ -1,0 +1,4 @@
+0,0,16061018,Francisco Lamas,4,4,4,4,4,4,4,,4,Excelente
+1,1,12345678,Eduardo Perez,3,2,1,4,4,3,2,,2.714286,Notable
+2,2,87654321,Christian De La Mora,0,2,4,3,0,3,,,1.714286,Bueno
+3,3,98420139,ramon edgardo,4,3,3,4,4,3,4,Ninguna,3.571429,Excelente

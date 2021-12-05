@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" dslVersion="1.0.0.0" Id="9d3da65d-a3a3-404d-956e-4380d5141fc1" name="DominioEvaluacion" linkedPackageId="26ced5ea-1d12-4652-947c-b19df13cc8bb" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a054c1f5-c6dc-449f-a01b-9a740694fa13" name="Formato de Evaluacion" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6fd98bc8-22bc-424c-807f-4bde91cf1192" />
+        <suppliersInternal>
+          <dependency Id="7b59d87d-1210-4a16-a029-3dae01edccc9" name="&lt;&lt;Entrega&gt;&gt;">
+            <classMoniker Id="30ec1976-6128-4418-ac37-3c5f19cc2098" LastKnownName="&lt;&lt;Actor&gt;&gt; Vinculacion" />
+            <elementDefinition Id="1486f2b4-e9d6-4ffa-ae18-9ac5400a9a49" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="577cac00-7c59-4725-a38c-a5230f8cd39d" name="&lt;&lt;Actor&gt;&gt; Docente" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="79b513bc-9942-4e1b-95ff-db454f487458" />
+        <suppliersInternal>
+          <dependency Id="3f4db9dd-a2c2-4874-a597-c5ad5e242dbd" name="&lt;&lt;Llenar&gt;&gt;">
+            <classMoniker Id="a054c1f5-c6dc-449f-a01b-9a740694fa13" LastKnownName="Formato de Evaluacion" />
+            <elementDefinition Id="a96a3126-21a6-4366-bdbd-187b5f093ac0" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="30ec1976-6128-4418-ac37-3c5f19cc2098" name="&lt;&lt;Actor&gt;&gt; Vinculacion" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="36cfe099-9eda-43c3-ae9b-e856370ef0bb" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="89b0abc6-95d3-4e49-a78a-3584047af20c" name="Registro  de Creditos" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a3b50de0-3845-4a04-9eb2-a4ff608bb74b" />
+        <suppliersInternal>
+          <dependency Id="d291ba13-bb54-41f3-a02f-842f3bc45afb" name="&lt;&lt;Asigna&gt;&gt;">
+            <classMoniker Id="30ec1976-6128-4418-ac37-3c5f19cc2098" LastKnownName="&lt;&lt;Actor&gt;&gt; Vinculacion" />
+            <elementDefinition Id="538d92c9-311f-44f7-a5d1-fa915343f040" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="26ced5ea-1d12-4652-947c-b19df13cc8bb" name="ModelingActividadesComplementarias">
+    <elementDefinition Id="ce2c232c-ba1f-40c5-a222-09a8cbad5ea6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="c847bb3d-3d0e-4bf8-8e96-2f1f717aeea4">
+        <profileInstance Id="d46628bd-9463-40e4-87ca-16ca0849bad4" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f251ca4a-a489-4ad7-bb2f-d2cf3bbe5edf">
+        <profileInstance Id="340400fd-e50c-4acf-9a50-bf8d40308754" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

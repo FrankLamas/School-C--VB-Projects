@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="6e0d7785-a61f-44bf-9944-c3732e5d7ed9" name="RegistroDeAlumnos" linkedPackageId="9cfe8926-271f-4c02-ba85-1e6c4826a1d3" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="6c08b89e-e578-47b9-b1d4-acebf5cd3a38" name="Alumno" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="003d2732-b8d0-439d-a7d5-11f80874e3ce" />
+        <targetEnds>
+          <association Id="56448774-9431-4c6b-ada7-aaca8406a6e2" isDerived="false" sourceEndRoleName="Alumno" targetEndRoleName="Ver lista de talleres" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ce95c589-518f-4c21-81c9-7832ed97f9ea" LastKnownName="Ver lista de talleres" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7b5b7c1c-b6d5-4917-936a-88e0f1744e31" name="Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0092a3ba-93ae-465a-92a1-dacdfebf385d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2b85894f-afbc-44ca-8bcf-f9847d2626b6" name="Ver lista de talleres" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8c35472-4939-41d4-9319-1743b1d533e4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4eda9f16-64c8-4591-a091-ca919f9959b9" />
+          </association>
+          <association Id="916d9673-283b-45da-9b08-d37b1c9565c5" isDerived="false" sourceEndRoleName="Alumno" targetEndRoleName="Registro de Alumnos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="040fc676-50a8-4e03-be15-490127750039" LastKnownName="Registro de Alumnos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="cfffdfe4-9bce-4f2c-93a0-a026c337e900" name="Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f6a3495c-1df4-458c-a203-80e5073a9e3a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e88bf80d-8da0-465d-a6c4-e98d32baf470" name="Registro de Alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="72d48199-da8b-49b9-b30f-91e32ccc4501" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7d8a6d2f-b3fa-489d-969f-7f36e14c74de" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="c7d270fe-4589-4e75-b593-06f13e0a5bdd" name="Vinculación" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="910511f9-0afb-4194-b51a-25d22ee52d4c" />
+        <targetEnds>
+          <association Id="94331cf2-581b-46d7-926e-b9ce79ab85fa" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="385ee39e-9198-4141-8007-440355b24a8a" LastKnownName="Convocatoria" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3be9b29b-a094-43e5-93e3-75155fa8fb68" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cf6dc843-7a70-4c6e-9205-e593cf144bae" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98a77a8c-07ca-48b3-81ba-b78f2968a95b" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9a02ecde-55ab-4a5c-8bf9-2fce84722b7e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="12ece865-6b2b-461b-a3d4-05d2539e4f84" />
+          </association>
+          <association Id="93cdd1ca-d394-466b-a4e2-738bbd15cb61" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="Registro de Alumnos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="040fc676-50a8-4e03-be15-490127750039" LastKnownName="Registro de Alumnos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="81346d81-843b-47d8-b13d-5a81f67c2fb6" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f173700b-80da-481f-a769-62a34e10f2eb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="506caca0-c79b-4829-8c7e-321455fd4ff6" name="Registro de Alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="12f26d46-800e-472d-9340-fe5430e202a0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="43d37bc0-5b5f-4be5-bd01-c1bad999ddb6" />
+          </association>
+          <association Id="ac51759f-afbf-4f3f-8599-6711cd9d7c42" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="Verificar cupo de talleres" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="720980c8-cd63-43df-add0-da913efe1a38" LastKnownName="Verificar cupo de talleres" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="505f4b60-8314-4b2d-a1b2-b0a163009516" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="55abf6bd-6b5d-4792-87c0-1f800158d5aa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f6c47580-8927-4925-988e-f95e2dd10340" name="Verificar cupo de talleres" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0a0dd2a1-a2fd-4714-be96-e9d24576aede" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e621e382-1649-4135-ace5-c7f5e43af6c1" />
+          </association>
+          <association Id="c4f2611f-306f-47c8-9511-bc055239924e" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="Publicar lista de alumnos aceptados" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f80ce655-a57a-4388-b1a7-fcd1b7f99e89" LastKnownName="Publicar listas de alumnos incritos a los talleres" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bc57c71f-d29b-4b69-8d34-8c46da943eb7" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="44d0fafd-056c-4362-b40b-56f15034e1f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f03253c7-1ad3-41af-bd0d-53b84c21af75" name="Publicar lista de alumnos aceptados" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="460d736d-7951-4bc7-ae4d-a7d23b7af896" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9afda5a2-2082-4dbb-a3c4-ec7488748b64" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="385ee39e-9198-4141-8007-440355b24a8a" name="Convocatoria" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2261f9c1-e371-433a-b16f-822b6dedb5e9" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="ce95c589-518f-4c21-81c9-7832ed97f9ea" name="Ver lista de talleres" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4f08a3e2-6b80-4f43-9742-4635d149c7fc" />
+        <suppliersInternal>
+          <dependency Id="936c8209-7a07-4301-aa22-66c6ef7db414">
+            <useCaseMoniker Id="385ee39e-9198-4141-8007-440355b24a8a" LastKnownName="Convocatoria" />
+            <elementDefinition Id="bbcd867d-c4aa-48f5-9e96-b329ced71025" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="040fc676-50a8-4e03-be15-490127750039" name="Registro de Alumnos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="d258dec5-56c3-402c-8b1f-bfa1f027ac66" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="720980c8-cd63-43df-add0-da913efe1a38" name="Verificar cupo de talleres" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="48aeb491-a86c-47ab-bfe4-2ac7e3da946a" />
+        <targetEnds>
+          <association Id="19be3cfa-83be-4739-8526-a39849016e67" isDerived="false" sourceEndRoleName="Verificar cupo de talleres" targetEndRoleName="Registro de Alumnos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="040fc676-50a8-4e03-be15-490127750039" LastKnownName="Registro de Alumnos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="26b59d77-0d05-463e-8dc7-5f7603203579" name="Verificar cupo de talleres" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c2552555-57ba-4374-ab92-ccb6852d7077" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08a9ab8f-bb92-41f3-b7c9-2d6f736fd9fb" name="Registro de Alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0bd0d511-3e61-4514-8420-7d1aaf583a5d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2111823e-c8ee-4726-ac8d-5ef62b1f6bce" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="f80ce655-a57a-4388-b1a7-fcd1b7f99e89" name="Publicar listas de alumnos incritos a los talleres" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f484309d-47d4-4b54-9b69-a1be3763cfeb" />
+        <targetEnds>
+          <association Id="b80bde38-1b67-498a-b250-1c9a917fd5dc" isDerived="false" sourceEndRoleName="Publicar listas de alumnos incritos a los talleres" targetEndRoleName="Registro de Alumnos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="040fc676-50a8-4e03-be15-490127750039" LastKnownName="Registro de Alumnos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="84876128-0364-479b-91f7-3613e2b214ab" name="Publicar listas de alumnos incritos a los talleres" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a8bf06fa-8274-472c-a099-07e49f055eaa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3baf745a-e52f-4db9-aee8-d740379699c3" name="Registro de Alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="af5fc0b8-f10b-4ffb-a438-9cc81cb6394e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="57b6a9cb-677d-4071-9f23-187a0d2f06ae" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="9cfe8926-271f-4c02-ba85-1e6c4826a1d3" name="ModelingActividadesComplementarias">
+    <elementDefinition Id="ce2c232c-ba1f-40c5-a222-09a8cbad5ea6" />
+    <profileInstances>
+      <packageHasProfileInstances Id="c320e65d-1011-4c79-a775-204bca3a449a">
+        <profileInstance Id="93aa4525-819a-4850-8dbc-e5efdc172be9" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4b7d5f9b-4f0c-4e03-8922-21d267ce8a90">
+        <profileInstance Id="f8810a4e-4751-4ab2-ae33-091fd936a6d1" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

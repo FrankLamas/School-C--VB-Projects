@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53D6D4E5-E661-4B09-B5FB-E073F3600749}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ActividadesComplementarias</RootNamespace>
+    <AssemblyName>ActividadesComplementarias</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="actividadesAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actividadesAgregar.Designer.cs">
+      <DependentUpon>actividadesAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actividadesBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actividadesBuscar.Designer.cs">
+      <DependentUpon>actividadesBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actividadesEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actividadesEditar.Designer.cs">
+      <DependentUpon>actividadesEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actividadesEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actividadesEliminar.Designer.cs">
+      <DependentUpon>actividadesEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="actividadesMostrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="actividadesMostrar.Designer.cs">
+      <DependentUpon>actividadesMostrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alumnoBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alumnoBuscar.Designer.cs">
+      <DependentUpon>alumnoBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alumnosEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alumnosEditar.Designer.cs">
+      <DependentUpon>alumnosEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="alumnosEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="alumnosEliminar.Designer.cs">
+      <DependentUpon>alumnosEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="docentesAgregar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docentesAgregar.Designer.cs">
+      <DependentUpon>docentesAgregar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="docentesBuscar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docentesBuscar.Designer.cs">
+      <DependentUpon>docentesBuscar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="docentesEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docentesEditar.Designer.cs">
+      <DependentUpon>docentesEditar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="docentesEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docentesEliminar.Designer.cs">
+      <DependentUpon>docentesEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="docentesMostar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="docentesMostar.Designer.cs">
+      <DependentUpon>docentesMostar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmActadeActividadesComplementarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmActadeActividadesComplementarias.Designer.cs">
+      <DependentUpon>frmActadeActividadesComplementarias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmActadeCumplimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmActadeCumplimiento.Designer.cs">
+      <DependentUpon>frmActadeCumplimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCapturadeAsistencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCapturadeAsistencias.Designer.cs">
+      <DependentUpon>frmCapturadeAsistencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEvaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvaluacion.Designer.cs">
+      <DependentUpon>frmEvaluacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerarListasAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerarListasAsistencia.Designer.cs">
+      <DependentUpon>frmGenerarListasAsistencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmJustificarFaltas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmJustificarFaltas.Designer.cs">
+      <DependentUpon>frmJustificarFaltas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOperacionesAsignarAlumnoATaller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOperacionesAsignarAlumnoATaller.Designer.cs">
+      <DependentUpon>frmOperacionesAsignarAlumnoATaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generar Constancias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Generar Constancias.Designer.cs">
+      <DependentUpon>Generar Constancias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MostrarA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MostrarA.Designer.cs">
+      <DependentUpon>MostrarA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="actividadesAgregar.resx">
+      <DependentUpon>actividadesAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actividadesBuscar.resx">
+      <DependentUpon>actividadesBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actividadesEditar.resx">
+      <DependentUpon>actividadesEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actividadesEliminar.resx">
+      <DependentUpon>actividadesEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="actividadesMostrar.resx">
+      <DependentUpon>actividadesMostrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alumnoBuscar.resx">
+      <DependentUpon>alumnoBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alumnosEditar.resx">
+      <DependentUpon>alumnosEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="alumnosEliminar.resx">
+      <DependentUpon>alumnosEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docentesAgregar.resx">
+      <DependentUpon>docentesAgregar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docentesBuscar.resx">
+      <DependentUpon>docentesBuscar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docentesEditar.resx">
+      <DependentUpon>docentesEditar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docentesEliminar.resx">
+      <DependentUpon>docentesEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="docentesMostar.resx">
+      <DependentUpon>docentesMostar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmActadeActividadesComplementarias.resx">
+      <DependentUpon>frmActadeActividadesComplementarias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmActadeCumplimiento.resx">
+      <DependentUpon>frmActadeCumplimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCapturadeAsistencias.resx">
+      <DependentUpon>frmCapturadeAsistencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvaluacion.resx">
+      <DependentUpon>frmEvaluacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerarListasAsistencia.resx">
+      <DependentUpon>frmGenerarListasAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmJustificarFaltas.resx">
+      <DependentUpon>frmJustificarFaltas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOperacionesAsignarAlumnoATaller.resx">
+      <DependentUpon>frmOperacionesAsignarAlumnoATaller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Generar Constancias.resx">
+      <DependentUpon>Generar Constancias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MostrarA.resx">
+      <DependentUpon>MostrarA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudiante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actividades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profesor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar-una-persona-simbolo-de-interfaz-de-una-lupa-en-forma-de-hombre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mostrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historial-medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estadisticas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\una-ventaja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprobado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\espalda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-property.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mostrar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disco-flexible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disco-flexible1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

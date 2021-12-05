@@ -1,0 +1,10 @@
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\bin\Debug\PruebaMenu.exe.config
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\bin\Debug\PruebaMenu.exe
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\bin\Debug\PruebaMenu.pdb
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.csprojResolveAssemblyReference.cache
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.Form1.resources
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.FrmCalculadora.resources
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.Properties.Resources.resources
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.csproj.GenerateResource.Cache
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.exe
+c:\users\laboratorio.lab3-pc12\documents\visual studio 2012\Projects\PruebaMenu\PruebaMenu\obj\Debug\PruebaMenu.pdb

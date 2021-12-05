@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="bccffa6b-4b63-4f14-9c5f-13fffdd81288" name="RegistroAsistencia" linkedPackageId="68759d7a-2b35-41d4-9063-c5ab5cd730a8" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="c317b697-a399-45ce-aa89-87ffa259cc9a">
+      <profileInstance Id="b829a4dc-612d-40f1-9783-6d79498a81e0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6fa3fce6-eb0a-4f25-8f90-2105b03b5ecc">
+      <profileInstance Id="b822140c-9e20-488d-b18c-bd6ca78ca7ef" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="eca510f2-2945-490e-94ee-204b92d1f0c5" name="Docente" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5a183884-1a00-431f-865f-469e5acba6bb" />
+        <targetEnds>
+          <association Id="820b411d-d467-4afc-a07e-cc9c27365177" isDerived="false" sourceEndRoleName="Docente" targetEndRoleName="Ver lista de asistencias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="76828a4f-5411-45ca-aacf-35848b9df7ca" LastKnownName="Ver lista de asistencias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5d9b952-f214-482c-b39d-d45010c1fef7" name="Docente" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2aec4998-e760-4d7a-a6e6-933c5e1fedf9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f26172c4-c34a-4cc3-a231-fdbe5ebf0269" name="Ver lista de asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="db308e2f-5fb4-4f7a-a46b-4cedaebb2175" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c6e4b078-411a-41a5-a3c4-ee3bb6d7e41a" />
+          </association>
+          <association Id="bfad769d-9a10-41b4-8d05-cf1563b62ce7" isDerived="false" sourceEndRoleName="Docente" targetEndRoleName="Tomar la asistencia a los alumnos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b7ffe7c9-f22c-4e17-8e28-79a116f4e3b9" LastKnownName="Tomar la asistencia a los alumnos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ea277ebf-f911-405d-a5f7-55c93f791ad7" name="Docente" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="68eade61-4012-49fc-9443-28e4f6770b8c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2ab5b13a-f828-4963-b54f-3f0ad080281c" name="Tomar la asistencia a los alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="65b04090-2880-4c43-a032-c551c6e5ee03" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="990253ab-5c71-4b8c-bbba-6f44fd41db22" />
+          </association>
+          <association Id="c21f2708-d90d-4a38-a744-5f8af7e1f4e4" isDerived="false" sourceEndRoleName="Docente" targetEndRoleName="Reportar las asistencias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eb14070e-391e-4f15-92de-055537ca4b78" LastKnownName="Reportar las asistencias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0be46ca2-5f8e-4f16-b967-2d411058fcba" name="Docente" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="77f4ea14-67cd-43b4-9c82-d463dea812e1" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e1fd84ae-c3bc-406c-9a8c-31ab1ff26d83" name="Reportar las asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="482fa87a-1247-4a36-bc61-22f82a7a8c6c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f8ce4290-77ae-4834-a1e1-c6557adbad25" />
+          </association>
+          <association Id="f2fcca06-905d-4560-9279-729e2cf6d3e1" isDerived="false" sourceEndRoleName="Docente" targetEndRoleName="Justificar posibles faltas" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3e4de634-226a-4eeb-a5d1-5fc156d82a3e" LastKnownName="Justificar posibles faltas" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="08a8d12d-d886-442f-a196-d8b21450a5c9" name="Docente" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="989b4ae7-8bc8-434a-9309-c8f21e0c6f95" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e85673dd-c05b-4cbc-a2cb-e95455127121" name="Justificar posibles faltas" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3fb8e33c-6548-466e-b37b-d9a883d3fec2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b1cce62e-7aca-4d7e-a850-10ef46680989" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="6d59c232-b5d8-48af-8f11-17090f728a86" name="Vinculación" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f6d88b25-8055-4435-b683-ba7205a05f3f" />
+        <targetEnds>
+          <association Id="3166cab9-09e3-4170-ac38-371f09eca94e" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="Entregar listas de asistencias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1835c959-cf6e-4be0-a24f-2d644d7fcbe5" LastKnownName="Entregar listas de asistencias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="445fa43a-26b2-4e77-b9a5-9d89f80e9499" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="7edb0556-c798-416c-9397-9695eab5c872" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac16a216-7efa-4622-9c40-1bb8fee906f3" name="Entregar listas de asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8689b8bf-6793-41c0-a899-58ec30961583" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c5c2167c-7078-4e32-8b94-0c55ea4a791c" />
+          </association>
+          <association Id="04571515-261a-47ff-a541-245c03a0bf84" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="Revisar listas de asistencia" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="76589467-24e7-480b-8645-227623a89d64" LastKnownName="Revisar listas de asistencia" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e45ef0ea-e1a1-473e-b668-eab0fe43a557" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="6071af26-a26b-4bff-8a2a-b052fbf45d5c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d4919298-7b94-4fa1-975c-e73a6ecdfd7d" name="Revisar listas de asistencia" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e6d65c92-63dd-45ba-99ee-a90ffade7265" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d52a164d-7e63-4f48-82e7-f8179bf038e4" />
+          </association>
+          <association Id="e74a63a2-fb20-4581-a6e4-3d54be83958e" isDerived="false" sourceEndRoleName="Vinculación" targetEndRoleName="Registrar Acreditados" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="dde0568a-b64a-4b17-8267-14b412df9478" LastKnownName="Registrar Acreditados" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="63c9fcfd-553a-4aaf-ae77-463a43911600" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c4e49998-7d52-4862-a49b-a1ed998f8f93" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5157e669-0d8d-483a-a9fa-d8e12dd8a9e3" name="Registrar Acreditados" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="65ff664f-c00a-4faa-b2d1-d9344a35d10b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="531b4b2f-fce4-4a84-97fc-da55de622fd3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1835c959-cf6e-4be0-a24f-2d644d7fcbe5" name="Entregar listas de asistencias" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7915abde-7a84-4a04-83d2-0a4b41846c21" />
+        <targetEnds>
+          <association Id="6d517c6c-d14f-4ec6-9eb9-39cff167f70a" isDerived="false" sourceEndRoleName="Entregar listas de asistencias" targetEndRoleName="Docente" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="eca510f2-2945-490e-94ee-204b92d1f0c5" LastKnownName="Docente" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f83ab2fc-8c8e-42ae-9bb4-f3d01f6b3d6b" name="Entregar listas de asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="21fa8192-225e-469e-a0ce-5905a9664821" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="45a5f16b-d1a9-4406-bf02-d6e4b2d29f65" name="Docente" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4b7cc5ae-2a4a-4101-96c5-cb327e596e34" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="83717c74-4152-481a-83b7-b0059126938f" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="76828a4f-5411-45ca-aacf-35848b9df7ca" name="Ver lista de asistencias" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e92d88a2-948c-46bd-b48d-f03fe682f770" />
+        <suppliersInternal>
+          <dependency Id="c468469a-5386-4ae0-956c-d4448a2e2356">
+            <useCaseMoniker Id="1835c959-cf6e-4be0-a24f-2d644d7fcbe5" LastKnownName="Entregar listas de asistencias" />
+            <elementDefinition Id="d1700c62-454f-4f50-bd11-f345caa461ac" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="b7ffe7c9-f22c-4e17-8e28-79a116f4e3b9" name="Tomar la asistencia a los alumnos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="44df6810-ce79-4189-9db5-cc5f37504015" />
+        <targetEnds>
+          <association Id="895ee4b6-56c4-43cb-9c5e-9f1af43b1849" isDerived="false" sourceEndRoleName="Tomar la asistencia a los alumnos" targetEndRoleName="Ver lista de asistencias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="76828a4f-5411-45ca-aacf-35848b9df7ca" LastKnownName="Ver lista de asistencias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="11a8a8d3-c395-415d-ba1a-6d47deea452a" name="Tomar la asistencia a los alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="73e0d3b6-1716-49b4-810e-4f7660c93f75" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="07f35265-08ae-493f-bf8c-cdac56c7ee4c" name="Ver lista de asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="e164465d-1465-434e-bb73-276de81667ca" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="21b04525-1d96-4dc3-ae1d-f9b6f65483c2" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="eb14070e-391e-4f15-92de-055537ca4b78" name="Reportar las asistencias" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ceb933f6-3448-44f6-bef2-9f3d7e1cb82c" />
+        <suppliersInternal>
+          <dependency Id="adc0b011-3621-4127-b694-4c55db24bcaa">
+            <useCaseMoniker Id="b7ffe7c9-f22c-4e17-8e28-79a116f4e3b9" LastKnownName="Tomar la asistencia a los alumnos" />
+            <elementDefinition Id="b75b31bc-5264-4897-86be-957f4ab4f6a1" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="a810b927-c60f-4acd-b416-ec42b6c1bba1" isDerived="false" sourceEndRoleName="Reportar las asistencias" targetEndRoleName="Vinculación" isLeaf="false" isAbstract="false">
+            <actorMoniker Id="6d59c232-b5d8-48af-8f11-17090f728a86" LastKnownName="Vinculación" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7d98c23f-56d7-4b62-b0e0-37276a54360a" name="Reportar las asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4d66d7fd-0a49-48b8-a2be-8897f5a8fd5b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6b783c2-ebcf-4f6f-83c6-56ef91e2fa38" name="Vinculación" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d92152ce-c40b-446f-935f-0debd1066b84" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="fcfb35c4-a049-4b74-9c99-b958dcc33bf4" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="76589467-24e7-480b-8645-227623a89d64" name="Revisar listas de asistencia" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6044cea1-6476-4ccc-8994-9238c327277a" />
+        <targetEnds>
+          <association Id="d94ee568-297f-47f1-9465-db64111793ff" isDerived="false" sourceEndRoleName="Revisar listas de asistencia" targetEndRoleName="Reportar las asistencias" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="eb14070e-391e-4f15-92de-055537ca4b78" LastKnownName="Reportar las asistencias" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="75d81047-78b8-4b6f-bd71-4fce6cfda484" name="Revisar listas de asistencia" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="90d1c0da-1470-4629-b720-777dc828e146" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1769dfae-90d7-459e-bd95-7f7192039471" name="Reportar las asistencias" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8e5b4c49-174c-4966-b898-7328c9fbcfc3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="1afa6ac9-a453-4aa5-8c4c-a7f3bad9741c" />
+          </association>
+        </targetEnds>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="dde0568a-b64a-4b17-8267-14b412df9478" name="Registrar Acreditados" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1a3ce9b6-0f2f-488f-8b18-20a20dcdda06" />
+        <suppliersInternal>
+          <dependency Id="140af730-0ac0-47a5-850d-c24673834e36">
+            <useCaseMoniker Id="76589467-24e7-480b-8645-227623a89d64" LastKnownName="Revisar listas de asistencia" />
+            <elementDefinition Id="848bb396-b350-4d1d-acef-d0819bfa137a" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="3e4de634-226a-4eeb-a5d1-5fc156d82a3e" name="Justificar posibles faltas" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1e702d17-1814-46a9-b1a8-e992c1c1c669" />
+        <suppliersInternal>
+          <dependency Id="47fdcc1f-35f7-4a99-a953-fa623f97fd85">
+            <useCaseMoniker Id="b7ffe7c9-f22c-4e17-8e28-79a116f4e3b9" LastKnownName="Tomar la asistencia a los alumnos" />
+            <elementDefinition Id="10f6f5fe-9796-464a-90c1-ec72249d775c" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="4ede25e5-51b4-401d-b34f-99687abf99ac" name="Alumno" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7cf4e59e-d62f-4320-9aed-d5ba177a8ac5" />
+        <targetEnds>
+          <association Id="b88cd6a3-92d9-4b9d-b18a-b146e3cf422c" isDerived="false" sourceEndRoleName="Alumno" targetEndRoleName="Necesidad Extrema" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="18039613-eef6-4491-b58b-9dd3e4fa5ca9" LastKnownName="Necesidad Extrema" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6efeff28-1cbc-4915-8dbe-ff3f248a0ccf" name="Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8c26cb83-8df4-43e5-9ec8-d5f498515d57" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c7709a77-041a-4a6d-8b7d-d316d267d28c" name="Necesidad Extrema" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="929cd5d6-df5f-425b-a451-54ceb4467323" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="470f3c37-218c-4a4c-b8ea-e9934bf3b5a7" />
+          </association>
+          <association Id="568683db-ac02-446b-9bad-3206d5431de9" isDerived="false" sourceEndRoleName="Alumno" targetEndRoleName="Tomar la asistencia a los alumnos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b7ffe7c9-f22c-4e17-8e28-79a116f4e3b9" LastKnownName="Tomar la asistencia a los alumnos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="77b28ae7-f93a-4cf6-96c1-ef8085653261" name="Alumno" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c6e30caa-c389-4400-b47b-bb7b6cbcaec5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a45c7da9-7b5e-44d8-8ca8-3cbc3cc04624" name="Tomar la asistencia a los alumnos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6b40bccb-0844-4984-bec4-9759c799e21c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="44961293-847b-481a-8076-300f21091df1" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="18039613-eef6-4491-b58b-9dd3e4fa5ca9" name="Necesidad Extrema" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bbfa19f1-fe03-4ff4-891f-100d95ba10cb" />
+        <suppliersInternal>
+          <dependency Id="c1f7767b-def3-47cc-85c1-45e3ac9b4e92">
+            <useCaseMoniker Id="3e4de634-226a-4eeb-a5d1-5fc156d82a3e" LastKnownName="Justificar posibles faltas" />
+            <elementDefinition Id="cbb21caa-a4e5-4046-a12f-6cc0d1350b9f" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="68759d7a-2b35-41d4-9063-c5ab5cd730a8" name="ModelingActividadesComplementarias">
+    <elementDefinition Id="ce2c232c-ba1f-40c5-a222-09a8cbad5ea6" />
+  </package>
+</useCaseModelRoot>
